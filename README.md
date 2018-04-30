@@ -1,2 +1,2 @@
 # sushantkumr.github.com
-(My personal website.)[sushantkumr.github.com]
+(My personal website.)[https://sushantkumr.github.com]
