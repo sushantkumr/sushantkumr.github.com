@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/sushantkumar
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://sushantkumr.github.io
+  * I am sushantkumar (https://keybase.io/sushantkumar) on keybase.
+  * I have a public key ASBYbGpfGXgtP5V1ZHP2uOynwuynaL5FqTm55tVopVKjiQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010166bcfb92aa9c619dd22ad80e135fa5b46c111137c9baaa7d6fa02b1d1845f6840a",
+      "host": "keybase.io",
+      "kid": "0120586c6a5f19782d3f95756473f6b8eca7c2eca768be45a939b9e6d568a552a3890a",
+      "uid": "1825924436b61d112ec0190708591619",
+      "username": "sushantkumar"
+    },
+    "merkle_root": {
+      "ctime": 1526727979,
+      "hash": "d7e8ccd0d38db50ca342ac44e68a4a36324c560e7587e520cc2e78cc531eb67cd91e8225290c859f0e04653794709e4b15ce5ee510a984266898dd3168479496",
+      "hash_meta": "447de2965fe2454f02032fed606661f7aad50e571ec8c348216d8250973ec895",
+      "seqno": 2823975
+    },
+    "service": {
+      "entropy": "DtR1wEy0jJQyhlx49ex8/UxW",
+      "hostname": "sushantkumr.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.49"
+  },
+  "ctime": 1526728069,
+  "expire_in": 504576000,
+  "prev": "4714035e2e3fa52058b0d702f0538ead23e17c230340ba040ea2622efdcf5b64",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgWGxqXxl4LT+VdWRz9rjsp8Lsp2i+Rak5uebVaKVSo4kKp3BheWxvYWTESpcCB8QgRxQDXi4/pSBYsNcC8FOOrSPhfCMDQLoEDqJiLv3PW2TEIMD3wLmpyzx/9wIB4s7ZfIUZAW8Ks4b4RRlRueqSWiJlAgHCo3NpZ8RAEmoQ5E2tht/Y3bzEs69xP449ZStCy/XPakkHxb863Rf02c0dt3Gle3FrHRUeTftUdq7BNpZkZ2tWFPOGcQsZAKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEICPw5ImyncHvA2xunkFfj/31bPYtWb6TzUnDqgRriJ9go3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sushantkumar
+
+==================================================================
