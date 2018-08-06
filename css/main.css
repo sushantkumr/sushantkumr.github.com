@@ -26,7 +26,7 @@ h1 {
 
 .box {
   text-align: left;
-  margin-top: 65px;
+  margin-top: 50px;
 }
 
 .box > h4 {
@@ -37,7 +37,7 @@ h1 {
 
 .inner-box {
   text-align: left;
-  margin-top: 35px;
+  margin-top: 30px;
 }
 
 .inner-box > p {
