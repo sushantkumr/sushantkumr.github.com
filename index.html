@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sushant Kumar</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script type="text/javascript" src="css/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118356301-1"></script>
@@ -19,73 +21,83 @@
 
 </head>
 <body>
-
-  <div id="container">
+  <div class="container">
     <h1 style="text-align: center;">Sushant Kumar</h1>
 
-    <div id="experiences">
+    <div class="row">
 
-      <div id="experience">
+      <div class="col-lg-6 box">
         <h4>work experience</h4>
-        <div class="experience">
-          <h5><b>Rakshe</b> &mdash; <i>Co-founder</i></h5>
-          <p>Nov 17 - Present</p>
-        </div>
-        <div class="experience">
-          <h5><b>Huawei</b> &mdash; <i>Full Stack Developer</i></h5>
-          <p>Jun 16 - Nov 17</p>
-        </div>
+          <div class="inner-box">
+            <h5><b>Rakshe</b> &mdash; <i>Co-founder</i></h5>
+            <p>Nov 17 - Jul 18</p>
+          </div>
+          <div class="inner-box">
+            <h5><b>Huawei</b> &mdash; <i>Full Stack Developer</i></h5>
+            <p>Jun 16 - Nov 17</p>
+          </div>          
       </div>
 
-      <div id="experience">
+      <div class="col-lg-6 box">
         <h4>skills</h4>
-        <div class="experience">
+        <div class="inner-box">
           <h5><b>Languages</b></h5>
           <p>python, javascript, solidity, java, html-css, SQL</p>
         </div>
-        <div class="experience">
+        <div class="inner-box">
           <h5><b>Frameworks</b></h5>
-          <p>AWS, flask, bootstrap, knockout, jQuery, spring, jsp</p>
+          <p>flask, knockout js, AWS, bootstrap, truffle, mocha, node js, react js</p>
         </div>
       </div>
 
-      <div id="experience">
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-6 box">
+        <h4>education</h4>
+        <div class="inner-box">
+          <h5><b>Visvesvaraya Technological University</b></h5>
+          <p>2012 - 2016</p>
+          <p>Bachelor of Engineering in Information Science</p>
+        </div>
+        <div class="inner-box">
+          <h5><b>Consensys Developer Program</b></h5>
+          <p>Jun 18 - Aug 18</p>
+        </div>
+      </div>
+
+      <div class="col-lg-6 box">
         <h4>open source projects</h4>
-        <div class="experience">
+        <div class="inner-box">
           <a href="https://github.com/sushantkumr/vhci" target="_blank"><h5><b>vhci</b></h5></a>
           <p>Python (Flask), JavaScript (jQuery), HTML-CSS (Bootstrap)</p>
         </div>
-        <div class="experience">
+        <div class="inner-box">
           <a href="https://github.com/sushantkumr/koinex-indicator-applet" target="_blank"><h5><b>koinex-indicator-applet</b></h5></a>
           <p>Python</p>
         </div>
-      </div>
+      </div>    
 
-      <div id="experience" class="experience">
-        <h4>education</h4>
-          <h5><b>Visvesvaraya Technological University</b> <small>(2012 - 2016)</small></h5>
-          <p>Bachelor of Engineering in Information Science</p>
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-6 inner-box">
+        <a href="https://github.com/sushantkumr" target="_blank" class="github">github</a>&nbsp;
+        <a href="https://twitter.com/_sushantkumar" target="_blank" class="twitter">twitter</a>&nbsp;
+        <a href="https://www.linkedin.com/in/sushantkumar3/" target="_blank" class="linkedin">linkedin</a>
+      </div>   
+
+      <div class="col-lg-6 inner-box">
+          <a href="mailto:sshnt.kmr3@gmail.com">email</a>&nbsp;&nbsp;
+          <a href="./resume.pdf" target="_blank">resume</a>
       </div>
 
     </div>
 
-    <div id="social">
-      <a href="https://github.com/sushantkumr" target="_blank" class="github">github</a>
-      <a href="https://twitter.com/_sushantkumar" target="_blank" class="twitter">twitter</a>
-      <a href="https://www.linkedin.com/in/sushantkumar3/" target="_blank" class="linkedin">linkedin</a>
-    </div>
-    <div id="contact">
-      <div class="contact-info">
-        <h4>email</h4>
-        <a href="mailto:sshnt.kmr3@gmail.com">sshnt.kmr3@gmail.com</a>
-      </div>
-      <div class="contact-info">
-        <h4>resume</h4>
-        <a href="./resume.pdf" target="_blank">Download</a>
-      </div>
-    </div>
   </div>
-  <div id="footer">
+  <div class="footer">
     <h4>&copy; 2018 Sushant Kumar</h4>
   </div>
 </body>

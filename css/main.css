@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "OverpassMono";
+  src: url(fonts/overpass-mono-light.ttf)
+}
+
+@font-face {
+  font-family: "OverpassMonoBold";
+  src: url(fonts/overpass-mono-semibold.ttf)
+}
+
+body {
+  font-family: OverpassMono;
+  color: #171726;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 32px;
+  font-family: OverpassMonoBold;
+}
+
+
+.angel {
+  color: #363435;
+}
+
+.box {
+  text-align: left;
+  margin-top: 65px;
+}
+
+.box > h4 {
+  font-size: 20px;
+  color: #A9ACB5;
+  font-weight: 600;
+}
+
+.inner-box {
+  text-align: left;
+  margin-top: 35px;
+}
+
+.inner-box > p {
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.inner-box > h5 {
+  font-size: 19px;
+}
+
+.inner-box > a > h5 {
+  font-size: 17px;
+  text-decoration: underline;
+  color: #363435;
+}
+
+.inner-box > a {
+  font-size: 17px;
+  text-decoration: underline;
+  color: #363435;
+}
+
+.footer {
+  margin: 20px 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 1050px) {
+    /* body > text-center */
+    .inner-box {
+          text-align: center;
+    }
+
+    .box {
+          text-align: center;
+    }
+}
+
+*::selection {
+  background-color: #363435;
+  color: #ffffff;
+}
