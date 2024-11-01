@@ -12,6 +12,7 @@ body {
   font-family: OverpassMono;
   color: #171726;
   font-weight: 300;
+  background-color: darkslategray;
 }
 
 h1 {
@@ -74,7 +75,7 @@ h1 {
 
 *::selection {
   background-color: #363435;
-  color: #d5d0d0;
+  color: #ffffff;
 }
 
 *::-moz-selection {
