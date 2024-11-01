@@ -74,7 +74,7 @@ h1 {
 
 *::selection {
   background-color: #363435;
-  color: #ffffff;
+  color: #d5d0d0;
 }
 
 *::-moz-selection {
