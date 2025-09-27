@@ -1,120 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sushant Kumar</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-  <link rel="shortcut icon" href="img/favicon.png" />
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118356301-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-118356301-1');
-  </script>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sushant Kumar - Senior SRE & Software Engineer">
+    <title>Sushant Kumar</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
-    <h1 style="text-align: center;">Sushant Kumar</h1>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="name">Sushant Kumar</h1>
+            <p class="title">Senior Software Engineer</p>
+            <div class="contact-info">
+                <a href="#" onclick="location.href='mailto:' + ['sushant.kumar.0x','gmail.com'].join('@'); return false;">sushant.kumar.0x[at]gmail[dot]com</a>
+                <a href="https://github.com/sushantkumr" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/sushantkumar3" target="_blank">LinkedIn</a>
+                <a href="https://twitter.com/_sushantkumar" target="_blank">Twitter</a>
+            </div>
+        </header>
 
-    <div class="row">
+        <!-- Main Content Grid -->
+        <main class="main-grid">
+            <!-- Experience Column -->
+            <section class="experience">
+                <h2>Experience</h2>
+                <div class="job">
+                    <div class="job-title">Senior SRE</div>
+                    <div class="job-company">Hinge Health</div>
+                    <div class="job-date">Feb 24 - Present</div>
+                </div>
+                <div class="job">
+                    <div class="job-title">Staff DevOps Engineer</div>
+                    <div class="job-company">Amagi</div>
+                    <div class="job-date">Oct 21 - Feb 24</div>
+                </div>
+                <div class="job">
+                    <div class="job-title">Full Stack Developer</div>
+                    <div class="job-company">Boxx.ai</div>
+                    <div class="job-date">Apr 19 - Oct 21</div>
+                </div>
+                <div class="job">
+                    <div class="job-title">Co-founder</div>
+                    <div class="job-company">Rakshe</div>
+                    <div class="job-date">Dec 17 - Apr 19</div>
+                </div>
+                <div class="job">
+                    <div class="job-title">Full Stack Developer</div>
+                    <div class="job-company">Huawei</div>
+                    <div class="job-date">Jun 16 - Nov 17</div>
+                </div>
+            </section>
 
-      <div class="col-lg-6 box">
-        <h4>work experience</h4>
-        <div class="inner-box">
-          <h5><b>Hinge Health</b> &mdash; <i>Senior SRE</i></h5>
-          <p>Feb 24 - Present</p>
-        </div>
-          <div class="inner-box">
-            <h5><b>Amagi</b> &mdash; <i>Staff DevOps Engineer</i></h5>
-            <p>Oct 21 - Feb 24</p>
-          </div>
-          <div class="inner-box">
-            <h5><b>Boxx.ai</b> &mdash; <i>Full Stack Developer</i></h5>
-            <p>Apr 19 - Oct 21</p>
-          </div>
-          <div class="inner-box">
-            <h5><b>Rakshe</b> &mdash; <i>Co-founder</i></h5>
-            <p>Dec 17 - Apr 19</p>
-          </div>
-          <div class="inner-box">
-            <h5><b>Huawei</b> &mdash; <i>Full Stack Developer</i></h5>
-            <p>Jun 16 - Nov 17</p>
-          </div>          
-      </div>
+            <!-- Skills Column -->
+            <section class="skills">
+                <h2>Skills</h2>
+                <div class="skill-group">
+                    <h3>Languages</h3>
+                    <div class="skill-list">
+                        <span>Python</span>
+                        <span>JavaScript</span>
+                        <span>Solidity</span>
+                        <span>Golang</span>
+                        <span>SQL</span>
+                        <span>HTML/CSS</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3>Frameworks & Tools</h3>
+                    <div class="skill-list">
+                        <span>Flask</span>
+                        <span>Knockout.js</span>
+                        <span>React.js</span>
+                        <span>AWS</span>
+                        <span>Bootstrap</span>
+                        <span>Truffle</span>
+                        <span>Mocha</span>
+                        <span>Node.js</span>
+                    </div>
+                </div>
+            </section>
 
-      <div class="col-lg-6 box">
-        <h4>skills</h4>
-        <div class="inner-box">
-          <h5><b>Languages</b></h5>
-          <p>python, javascript, solidity, golang, SQL, html-css</p>
-        </div>
-        <div class="inner-box">
-          <h5><b>Frameworks</b></h5>
-          <p>flask, knockout js, react js, AWS, bootstrap, truffle, mocha, node js</p>
-        </div>
-      </div>
+            <!-- Education & Projects Column -->
+            <section class="education-projects">
+                <div class="education">
+                    <h2>Education</h2>
+                    <div class="edu-item">
+                        <div class="edu-degree">Bachelor of Engineering</div>
+                        <div class="edu-school">Visvesvaraya Technological University</div>
+                        <div class="edu-date">2012 - 2016</div>
+                    </div>
+                </div>
 
+                <div class="projects">
+                    <h2>Open Source</h2>
+                    <div class="project-list">
+                        <a href="https://github.com/sushantkumr" target="_blank" class="project-link">View Projects on GitHub</a>
+                    </div>
+                </div>
+            </section>
+        </main>
     </div>
-
-    <div class="row">
-
-      <div class="col-lg-6 box">
-        <h4>education</h4>
-        <div class="inner-box">
-          <h5><b>Visvesvaraya Technological University</b></h5>
-          <p>2012 - 2016</p>
-          <p>Bachelor of Engineering in Information Science</p>
-        </div>
-        <div class="inner-box">
-          <h5><b>Consensys Developer Program</b></h5>
-          <p>Jun 18 - Aug 18</p>
-        </div>
-      </div>
-
-      <div class="col-lg-6 box">
-        <h4>open source projects</h4>
-        <div class="inner-box">
-          <a href="https://github.com/sushantkumr/CrowdCoin" target="_blank"><h5><b>crowd-coin</b></h5></a>
-          <p>truffle-react-box, nextjs, react-semantic</p>
-        </div>
-        <div class="inner-box">
-          <a href="https://github.com/sushantkumr/vhci" target="_blank"><h5><b>vhci</b></h5></a>
-          <p>Python (Flask), JavaScript (jQuery), HTML-CSS (Bootstrap)</p>
-        </div>
-        <div class="inner-box">
-          <a href="https://github.com/sushantkumr/koinex-indicator-applet" target="_blank"><h5><b>koinex-indicator-applet</b></h5></a>
-          <p>Python</p>
-        </div>
-      </div>    
-
-    </div>
-
-    <div class="row">
-
-      <div class="col-lg-6 inner-box">
-        <a href="https://github.com/sushantkumr" target="_blank" class="github">github</a>&nbsp;
-        <a href="https://twitter.com/_sushantkumar" target="_blank" class="twitter">twitter</a>&nbsp;
-        <a href="https://www.linkedin.com/in/sushantkumar3/" target="_blank" class="linkedin">linkedin</a>
-      </div>   
-
-      <div class="col-lg-6 inner-box">
-          <a href="mailto:sushant.kumar.0x@gmail.com">email</a>&nbsp;&nbsp;
-          <a href="./resume.pdf" target="_blank">resume</a>
-      </div>
-
-    </div>
-
-  </div>
-  <div class="footer">
-    <h4>&copy; 2024 Sushant Kumar</h4>
-  </div>
 </body>
 </html>
